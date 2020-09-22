@@ -1,0 +1,39 @@
+    Readonly members  >>
+    Default interface methods >>
+    Pattern matching enhancements: >>
+        Switch expressions >>
+        Property patterns >>
+        Tuple patterns >>
+        Positional patterns >>
+    Using declarations >>
+    Static local functions >>
+    Disposable ref structs >>
+
+    Nullable reference types >>
+    Asynchronous streams  >>
+    Asynchronous disposable
+    Indices and ranges  >>
+    Null-coalescing assignment   >>
+    Unmanaged constructed types  >>
+    Stackalloc in nested expressions  >>
+    Enhancement of interpolated verbatim strings
+
+
+Records
+Init only setters
+Top-level statements
+Pattern matching enhancements
+Native sized integers
+Function pointers
+Suppress emitting localsinit flag
+Target-typed new expressions
+static anonymous functions
+Target-typed conditional expressions
+Covariant return types
+Extension GetEnumerator support for foreach loops
+Lambda discard parameters
+Attributes on local functions
+Module initializers
+New features for partial methods
+
+

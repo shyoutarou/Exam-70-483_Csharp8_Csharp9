@@ -7,7 +7,13 @@ namespace C8_Using
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IEnumerable<string> m_oEnum = new List<string>() { "1", "2", "3" };
+            IEnumerable<string> m_oArray = new string[] { "1", "2", "3" };
+            IEnumerable<string> myStrings = new[] { "first item", "Second item" };
+            WriteLinesToFile(myStrings);
+
+
+            Console.ReadKey();
         }
 
         static int WriteLinesToFile(IEnumerable<string> lines)
@@ -29,6 +35,21 @@ namespace C8_Using
             // Notice how skippedLines is in scope here.
             return skippedLines;
             // file is disposed here
+        }
+
+        static void EscreverNoArquivo(IEnumerable<string> linhas)
+        {
+            using (var arquivo = new System.IO.StreamWriter("WriteLines2.txt"))
+            {
+                foreach (string linha in linhas)
+                {
+                    // se linha não contém 'teste' escreve a linha no arquivo
+                    if (!linha.Contains("Second"))
+                    {
+                        arquivo.WriteLine(linha);
+                    }
+                }
+            }   // arquivo é liberado aqui
         }
 
     }

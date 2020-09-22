@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C8_DispoeRefStructs", "C8_DispoeRefStructs\C8_DispoeRefStructs.csproj", "{BD37C443-7CA8-47BC-9ACF-3A1EBA9FA49A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD37C443-7CA8-47BC-9ACF-3A1EBA9FA49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD37C443-7CA8-47BC-9ACF-3A1EBA9FA49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD37C443-7CA8-47BC-9ACF-3A1EBA9FA49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD37C443-7CA8-47BC-9ACF-3A1EBA9FA49A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04F2816B-0CD7-4B90-AF77-673DC1687767}
+	EndGlobalSection
+EndGlobal
