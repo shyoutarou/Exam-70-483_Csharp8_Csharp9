@@ -1,0 +1,87 @@
+MEMBROS SOMENTE LEITURA
+MÉTODOS DE INTERFACE PADRÃO
+	Adicionar Métodos à Interface Padrão
+	Fornecer Parâmetros à Interface Padrão
+	Estenda a implementação padrão
+EXPANDINDO CORRESPONDÊNCIA DE PATTERN
+	Expressão Switch
+	Pattern de propriedade
+	Pattern de tupla
+	Pattern posicionais
+DECLARAÇÕES USING
+FUNÇÕES LOCAIS ESTÁTICAS
+REF STRUCTS DESCARTÁVEIS
+TIPOS DE REFERÊNCIA ANULÁVEIS
+	Escolher uma estratégia para tipos de referência anuláveis
+STREAMS ASSÍNCRONOS
+	CancelamentoToken
+DESCARTÁVEL ASSÍNCRONO
+ÍNDICES E INTERVALOS
+ATRIBUIÇÃO DE COALESCÊNCIA NULA
+	Tipos anuláveis
+	Operador de Coalescência Nula ?? 
+TIPOS CONSTRUÍDOS NÃO GERENCIADOS
+STACKALLOC EM EXPRESSÕES ANINHADAS
+	System.Span<T> ou System.ReadOnlySpan<T>
+	Por um tipo ponteiro
+APRIMORAMENTO DE STRINGS TEXTUAIS INTERPOLADAS
+
+
+Csharp 9.0
+CONFIGURANDO O C# 9
+	Solução de problemas
+SETTERS INIT >>>
+REGISTROS
+1.	Copiar e clonar Membros
+	Expressões With
+2.	Métodos para comparações de igualdade com base em valor como Equals(objeto), IEquatable<T> 
+	sobrecargas Equals
+	GetHashCode ()
+	operator == e operator !=
+	EqualityContract
+3.	Override de GetHashCode()
+4.	PrintMembers e ToString()
+5.	Método Construct/Deconstruct com registros posicionais simplificados
+	Registros Posicionais
+INSTRUÇÕES DE NÍVEL SUPERIOR >>>
+MELHORIAS NA CORRESPONDÊNCIA DE PADRÕES >>>
+	Padrões de tipo simples >>>
+	Padrões relacionais >>>
+	Padrões lógicos >>>
+
+DESEMPENHO E INTEROPERABILIDADE
+	Inteiros de tamanho nativo  >>>
+	Ponteiros de função
+	Suprimir emissão do sinalizador localsinit
+
+APRIMORAMENTO DA TIPAGEM >>>
+	Expressões new com Target-typing >>>
+	Expressões condicionais Target-typing >>>
+	Tipos de retorno covariantes >>>
+
+funções anônimas estáticas	
+Parâmetros discard de lambda	
+Atributos em funções locais >>>
+Suporte GetEnumerator de extensão para foreach loops	
+Suporte para geradores de código	
+•	Novos recursos para métodos parciais >>>
+•	Inicializadores de módulo	
+	
+
+
+
+
+Performance and interoperability
+•	Native sized integers  >>>
+•	Function pointers
+•	Suppress emitting localsinit flag
+static anonymous functions
+Lambda discard parameters
+Attributes on local functions >>>
+
+Extension GetEnumerator support for foreach loops
+Support for code generators
+•	New features for partial methods >>>
+•	Module initializers
+
+

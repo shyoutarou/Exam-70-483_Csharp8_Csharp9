@@ -41,6 +41,8 @@ namespace C8_UnmanagedTypes
                     numbers[i] = new Coords<int> { X = 0, Y = i };
                 }
             }
+
+            Console.ReadKey();
         }
 
         private unsafe static void DisplaySize<T>() where T : unmanaged
