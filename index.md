@@ -1,4 +1,5 @@
-Welcome to the Exam-70-483_Acesso_dados wiki!
+### Este exame será retirado em 31 de janeiro de 2021 às 23h59, horário central. Você não poderá mais fazer o exame após essa data. Saiba mais sobre outros exames que serão retirados [aqui](https://docs.microsoft.com/en-us/learn/certifications/retired-certification-exams)
+
 
 Resumo do treinamento para o exame.
 
@@ -13,7 +14,6 @@ Resumo do treinamento para o exame.
 5. [Csharp8_Csharp9](https://github.com/shyoutarou/Exam-70-483_Csharp8_Csharp9/wiki/Csharp8_Csharp9)
      - [GitHub Page](https://shyoutarou.github.io/Exam-70-483_Csharp8_Csharp9/)
 6. [Questions](https://github.com/shyoutarou/Exam-70-483_Questions/wiki/Questions)
-
 
 
 ## [Csharp 08](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8)
@@ -153,35 +153,32 @@ Para configurar vários projetos, você pode criar um arquivo Directory. Build. 
 
 As compilações em todos os subdiretórios do diretório que contém esse arquivo usarão a versão preview C#. Para obter mais informações, confira o artigo sobre como personalizar o build.  C# 8.0 adiciona os seguintes recursos e aprimoramentos à linguagem  C#:
 
+
 | pt                                                                  | en                                                      |
 |---------------------------------------------------------------------|---------------------------------------------------------|
 |     Membros somente leitura                                         |     Readonly members                                    |
 |     Métodos de interface padrão                                     |     Default interface methods                           |
-|     1. Adicionar   Métodos à Interface Padrão                          |     1.Add Methods to the Standard Interface             |
-|     2. Fornecer   Parâmetros à Interface Padrão                        |     2. Provide Parameters to the Standard Interface      |
-|     3. Estenda   a implementação padrão                                |     3. Extend the standard implementation                |
+|     <ul><li>Adicionar   Métodos à Interface Padrão </li><li>Fornecer   Parâmetros à Interface Padrão</li><li>Estenda   a implementação padrão</li></ul>                                |     <ul><li>Add Methods to the Standard Interface</li><li>Provide Parameters to the Standard Interface</li><li>Extend the standard implementation</li></ul>               |
 |     Aprimoramentos   de correspondência de padrões                  |     Pattern matching enhancements                     |
-|     1.expressões   Switch                                             |     1.Switch expressions                                |
-|     2. Padrões   de propriedade                                        |    2. Property patterns                                 |
-|     3. Padrões   de tupla                                              |    3. Tuple patterns                                    |
-|     4. Padrões   posicionais                                           |    4. Positional   patterns                               |
+|     <ul><li>expressões   Switch</li><li>Padrões   de propriedade</li><li>Padrões   de tupla</li><li>Padrões   posicionais</li></ul>                                           |    <ul><li>Switch expressions</li><li>Property patterns </li><li>Tuple patterns</li><li>Positional   patterns</li></ul>                               |
 |     Declarações   Using                                             |     Using   declarations                                |
 |     Funções   locais estáticas                                      |     Static   local functions                            |
 |     Ref   structs descartáveis                                      |     Disposable   ref structs                            |
 |     Tipos   de referência anuláveis                                 |     Nullable   reference types                          |
-|     1.Escolher   uma estratégia para tipos de referência anuláveis    |     1.Choose   a strategy for nullable reference types    |
+|     <ul><li>Escolher   uma estratégia para tipos de referência anuláveis</li></ul>   |     <ul><li>Choose   a strategy for nullable reference types</li></ul>    |
 |     Streams   assíncronos                                           |     Asynchronous   streams                              |
-|     1.CanceledToken                                                   |     1.CanceledToken                                       |
+|     <ul><li>CanceledToken</li></ul>                    |     <ul><li>CanceledToken</li></ul>                                       |
 |     Descartável   assíncrono                                        |     Asynchronous   disposable                           |
 |     Índices   e intervalos                                          |     Indices   and ranges                                |
 |     Atribuição   de coalescência nula                               |     Null-coalescing   assignment                        |
-|     1.Tipos   anuláveis                                               |     1.Nullable   types                                    |
-|     2. Operador   de Coalescência Nula ??                              |    2. Null   Coalescence Operator ??                      |
+|     <ul><li>Tipos   anuláveis</li><li>Operador   de Coalescência Nula ?? </li></ul>                              |    <ul><li>Nullable   types</li><li>Null   Coalescence Operator ??</li></ul>                       |
 |     Tipos   construídos não gerenciados                             |     Unmanaged   constructed types                       |
 |     Stackalloc   em expressões aninhadas                            |     Stackalloc in   nested expressions                  |
-|     1.```System.Span<T>```   ou ```System.ReadOnlySpan<T>```          |     1.```System.Span<T>``` or ```System.ReadOnlySpan<T>```  |
-|     2. Por   um tipo ponteiro                                          |    2. By a pointer   type                                 |
-|     Por   um tipo ponteiro                                          |     By a pointer   type                                 |
+|     <ul><li>```System.Span<T>```   ou ```System.ReadOnlySpan<T>```</li><li>Por um tipo ponteiro</li></ul>                                          |    <ul><li>```System.Span<T>```   ou ```System.ReadOnlySpan<T>```</li><li>By a pointer   type </li></ul>                                 |
+|     Aprimoramento de strings textuais interpoladas                                          |     Enhancement of interpolated verbatim strings                                 |
+
+
+	
 
 ### MEMBROS SOMENTE LEITURA
 
