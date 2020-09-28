@@ -1,15 +1,6 @@
 ### Este exame será retirado em 31 de janeiro de 2021 às 23h59, horário central. Você não poderá mais fazer o exame após essa data. Saiba mais sobre outros exames que serão retirados [aqui](https://docs.microsoft.com/en-us/learn/certifications/retired-certification-exams)
 
 
-| column 1 | column 2 |
-|----------|----------|
-| value    | * value 1|
-|          | * value 2|
-|----------|----------|
-| value    | * value 1|
-|          | * value 2|
-
-
 Resumo do treinamento para o exame.
 
 1. [Criar_usar_tipos](https://github.com/shyoutarou/Exam-70-483_Criar_usar_tipos/wiki/Criar_usar_tipos)
