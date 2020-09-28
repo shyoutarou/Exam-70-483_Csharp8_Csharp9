@@ -12,7 +12,7 @@
 </ul>
 
 
-Resumo do treinamento para o exame.
+Resumo do treinamento para o exame.....
 
 1. [Criar_usar_tipos](https://github.com/shyoutarou/Exam-70-483_Criar_usar_tipos/wiki/Criar_usar_tipos)
      - [GitHub Page](https://shyoutarou.github.io/Exam-70-483_Criar_usar_tipos/)
