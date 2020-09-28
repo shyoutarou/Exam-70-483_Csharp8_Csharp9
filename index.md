@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="kg50GjPxJzeZrWjVtYbRE5i-xpi7UvYsf753E8JJR4A" />
 
 ### Este exame será retirado em 31 de janeiro de 2021 às 23h59, horário central. Você não poderá mais fazer o exame após essa data. Saiba mais sobre outros exames que serão retirados [aqui](https://docs.microsoft.com/en-us/learn/certifications/retired-certification-exams)
 
