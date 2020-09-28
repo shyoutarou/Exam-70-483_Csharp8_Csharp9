@@ -153,31 +153,35 @@ Para configurar vários projetos, você pode criar um arquivo Directory. Build. 
 
 As compilações em todos os subdiretórios do diretório que contém esse arquivo usarão a versão preview C#. Para obter mais informações, confira o artigo sobre como personalizar o build.  C# 8.0 adiciona os seguintes recursos e aprimoramentos à linguagem  C#:
 
-
 | pt                                                                  | en                                                      |
 |---------------------------------------------------------------------|---------------------------------------------------------|
 |     Membros somente leitura                                         |     Readonly members                                    |
 |     Métodos de interface padrão                                     |     Default interface methods                           |
-|     <ul><li>Adicionar   Métodos à Interface Padrão </li><li>Fornecer   Parâmetros à Interface Padrão</li><li>Estenda   a implementação padrão</li></ul>                                |     <ul><li>Add Methods to the Standard Interface</li><li>Provide Parameters to the Standard Interface</li><li>Extend the standard implementation</li></ul>               |
+|     1. Adicionar   Métodos à Interface Padrão                          |     1.Add Methods to the Standard Interface             |
+|     2. Fornecer   Parâmetros à Interface Padrão                        |     2. Provide Parameters to the Standard Interface      |
+|     3. Estenda   a implementação padrão                                |     3. Extend the standard implementation                |
 |     Aprimoramentos   de correspondência de padrões                  |     Pattern matching enhancements                     |
-|     <ul><li>expressões   Switch</li><li>Padrões   de propriedade</li><li>Padrões   de tupla</li><li>Padrões   posicionais</li></ul>                                           |    <ul><li>Switch expressions</li><li>Property patterns </li><li>Tuple patterns</li><li>Positional   patterns</li></ul>                               |
+|     1.expressões   Switch                                             |     1.Switch expressions                                |
+|     2. Padrões   de propriedade                                        |    2. Property patterns                                 |
+|     3. Padrões   de tupla                                              |    3. Tuple patterns                                    |
+|     4. Padrões   posicionais                                           |    4. Positional   patterns                               |
 |     Declarações   Using                                             |     Using   declarations                                |
 |     Funções   locais estáticas                                      |     Static   local functions                            |
 |     Ref   structs descartáveis                                      |     Disposable   ref structs                            |
 |     Tipos   de referência anuláveis                                 |     Nullable   reference types                          |
-|     <ul><li>Escolher   uma estratégia para tipos de referência anuláveis</li></ul>   |     <ul><li>Choose   a strategy for nullable reference types</li></ul>    |
+|     1.Escolher   uma estratégia para tipos de referência anuláveis    |     1.Choose   a strategy for nullable reference types    |
 |     Streams   assíncronos                                           |     Asynchronous   streams                              |
-|     <ul><li>CanceledToken</li></ul>                    |     <ul><li>CanceledToken</li></ul>                                       |
+|     1.CanceledToken                                                   |     1.CanceledToken                                       |
 |     Descartável   assíncrono                                        |     Asynchronous   disposable                           |
 |     Índices   e intervalos                                          |     Indices   and ranges                                |
 |     Atribuição   de coalescência nula                               |     Null-coalescing   assignment                        |
-|     <ul><li>Tipos   anuláveis</li><li>Operador   de Coalescência Nula ?? </li></ul>                              |    <ul><li>Nullable   types</li><li>Null   Coalescence Operator ??</li></ul>                       |
+|     1.Tipos   anuláveis                                               |     1.Nullable   types                                    |
+|     2. Operador   de Coalescência Nula ??                              |    2. Null   Coalescence Operator ??                      |
 |     Tipos   construídos não gerenciados                             |     Unmanaged   constructed types                       |
 |     Stackalloc   em expressões aninhadas                            |     Stackalloc in   nested expressions                  |
-|     <ul><li>```System.Span<T>```   ou ```System.ReadOnlySpan<T>```</li><li>Por um tipo ponteiro</li></ul>                                          |    <ul><li>```System.Span<T>```   ou ```System.ReadOnlySpan<T>```</li><li>By a pointer   type </li></ul>                                 |
-|     Aprimoramento de strings textuais interpoladas                                          |     Enhancement of interpolated verbatim strings                                 |
-
-
+|     1.```System.Span<T>```   ou ```System.ReadOnlySpan<T>```          |     1.```System.Span<T>``` or ```System.ReadOnlySpan<T>```  |
+|     2. Por   um tipo ponteiro                                          |    2. By a pointer   type                                 |
+|     Por   um tipo ponteiro                                          |     By a pointer   type                                 |
 	
 
 ### MEMBROS SOMENTE LEITURA
