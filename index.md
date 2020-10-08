@@ -26,6 +26,38 @@ Resumo do treinamento para o exame................
 6. [Questions](https://github.com/shyoutarou/Exam-70-483_Questions/wiki/Questions)
 
 
+- [HABILITANDO O C# 8](#habilitando-o-c-8)
+- [Padrões do compilador](#padrões-do-compilador)
+- [Substituir um padrão](#substituir-um-padrão)
+- [Editar o arquivo de projeto](#editar-o-arquivo-de-projeto)
+- [Configurar vários projetos](#configurar-vários-projetos)
+- [MEMBROS SOMENTE LEITURA (Readonly members)](#membros-somente-leitura)
+- [MÉTODOS DE INTERFACE PADRÃO (Default interface methods)](#métodos-de-interface-padrão)
+  - [Adicionar Métodos à Interface Padrão](#adicionar-métodos-à-interface-padrão)
+  - [Fornecer Parâmetros à Interface Padrão](#fornecer-parâmetros-à-interface-padrão)
+  - [Estenda a implementação padrão](#estenda-a-implementação-padrão)
+- [EXPANDINDO CORRESPONDÊNCIA DE PATTERN (Pattern matching enhancements)](#expandindo-correspondência-de-pattern)
+  - [Expressão Switch](#expressão-switch)
+  - [Pattern de propriedade](#pattern-de-propriedade)
+  - [Pattern de tupla](#pattern-de-tupla)
+  - [Pattern posicionais](#pattern-posicionais)
+- [DECLARAÇÕES USING (Using declarations)](#declarações-using)
+- [FUNÇÕES LOCAIS ESTÁTICAS (Static local functions)](#funções-locais-estáticas)
+- [REF STRUCTS DESCARTÁVEIS (Disposable ref structs)](#ref-structs-descartáveis)
+- [TIPOS DE REFERÊNCIA ANULÁVEIS](#tipos-de-referência-anuláveis)
+  - [Escolher uma estratégia para tipos de referência anuláveis](#escolher-uma-estratégia-para-tipos-de-referência-anuláveis)
+- [STREAMS ASSÍNCRONOS (Asynchronous   streams)](#streams-assíncronos)
+  - [CancelamentoToken](#cancelamentotoken)
+- [DESCARTÁVEL ASSÍNCRONO (Disposable ref structs)](#descartável-assíncrono)
+- [ÍNDICES E RANGES (Indices and ranges)](#índices-e-ranges)
+- [ATRIBUIÇÃO DE COALESCÊNCIA NULA (Null-coalescing assignment)](#atribuição-de-coalescência-nula)
+  - [Tipos anuláveis](#tipos-anuláveis)
+  - [Operador de Coalescência Nula ??](#operador-de-coalescência-nula-)
+- [TIPOS CONSTRUÍDOS NÃO GERENCIADOS(Unmanaged constructed types)](#tipos-construídos-não-gerenciados)
+- [STACKALLOC EM EXPRESSÕES ANINHADAS(Stackalloc in nested expressions)](#stackalloc-em-expressões-aninhadas)
+  - [System.Span<T> ou System.ReadOnlySpan<T>](#systemspant-ou-systemreadonlyspant)
+- [APRIMORAMENTO DE STRINGS TEXTUAIS INTERPOLADAS(Enhancement of interpolated verbatim strings)](#aprimoramento-de-strings-textuais-interpoladas)
+
 ## [Csharp 08](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8)
 
 ### HABILITANDO O C# 8
@@ -37,10 +69,7 @@ A primeira etapa é garantir que estejamos usando o Visual Studio 2019 versão 1
   <img src="https://raw.githubusercontent.com/shyoutarou/Exam-70-483_Csharp8_Csharp9/master/.github/vs163.png" alt="Image" width="100%" />
 </p>
 
- 
-
 Em seguida, precisamos configurar o projeto para o C# 8. Se estivermos acostumados a trabalhar com o Visual Studio, talvez espere alterar de maneira simples a configuração de um projeto. Antes era só ir para Compilar da janela de propriedades do projeto e selecionar a versão do idioma C# :
- 
  
 <p align="center">
   <img src="https://raw.githubusercontent.com/shyoutarou/Exam-70-483_Csharp8_Csharp9/master/.github/configurarvs.png" alt="Image" width="100%" />
@@ -162,37 +191,6 @@ Para configurar vários projetos, você pode criar um arquivo Directory. Build. 
 ```
 
 As compilações em todos os subdiretórios do diretório que contém esse arquivo usarão a versão preview C#. Para obter mais informações, confira o artigo sobre como personalizar o build.  C# 8.0 adiciona os seguintes recursos e aprimoramentos à linguagem  C#:
-
-| pt                                                                  | en                                                      |
-|---------------------------------------------------------------------|---------------------------------------------------------|
-|     Membros somente leitura                                         |     Readonly members                                    |
-|     Métodos de interface padrão                                     |     Default interface methods                           |
-|     1. Adicionar   Métodos à Interface Padrão                          |     1.Add Methods to the Standard Interface             |
-|     2. Fornecer   Parâmetros à Interface Padrão                        |     2. Provide Parameters to the Standard Interface      |
-|     3. Estenda   a implementação padrão                                |     3. Extend the standard implementation                |
-|     Aprimoramentos   de correspondência de padrões                  |     Pattern matching enhancements                     |
-|     1.expressões   Switch                                             |     1.Switch expressions                                |
-|     2. Padrões   de propriedade                                        |    2. Property patterns                                 |
-|     3. Padrões   de tupla                                              |    3. Tuple patterns                                    |
-|     4. Padrões   posicionais                                           |    4. Positional   patterns                               |
-|     Declarações   Using                                             |     Using   declarations                                |
-|     Funções   locais estáticas                                      |     Static   local functions                            |
-|     Ref   structs descartáveis                                      |     Disposable   ref structs                            |
-|     Tipos   de referência anuláveis                                 |     Nullable   reference types                          |
-|     1.Escolher   uma estratégia para tipos de referência anuláveis    |     1.Choose   a strategy for nullable reference types    |
-|     Streams   assíncronos                                           |     Asynchronous   streams                              |
-|     1.CanceledToken                                                   |     1.CanceledToken                                       |
-|     Descartável   assíncrono                                        |     Asynchronous   disposable                           |
-|     Índices   e intervalos                                          |     Indices   and ranges                                |
-|     Atribuição   de coalescência nula                               |     Null-coalescing   assignment                        |
-|     1.Tipos   anuláveis                                               |     1.Nullable   types                                    |
-|     2. Operador   de Coalescência Nula ??                              |    2. Null   Coalescence Operator ??                      |
-|     Tipos   construídos não gerenciados                             |     Unmanaged   constructed types                       |
-|     Stackalloc   em expressões aninhadas                            |     Stackalloc in   nested expressions                  |
-|     1.```System.Span<T>```   ou ```System.ReadOnlySpan<T>```          |     1.```System.Span<T>``` or ```System.ReadOnlySpan<T>```  |
-|     2. Por   um tipo ponteiro                                          |    2. By a pointer   type                                 |
-|     Por   um tipo ponteiro                                          |     By a pointer   type                                 |
-	
 
 ### MEMBROS SOMENTE LEITURA
 
